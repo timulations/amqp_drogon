@@ -1,0 +1,3 @@
+[submodule "AMQP-CPP"]
+	path = AMQP-CPP
+	url = https://github.com/CopernicaMarketingSoftware/AMQP-CPP.git
