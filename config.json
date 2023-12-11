@@ -1,0 +1,22 @@
+{
+    "listeners": [
+        {
+          "address": "0.0.0.0",
+          "port": 5000,
+          "https": false
+        }
+    ],
+    "threads_num": 2,
+    "plugins": [
+        {
+            "name": "AMQPClient",
+            "config": {
+                "ip": "127.0.0.1",
+                "port": 5672,
+                "user": "guest",
+                "password": "guest",
+                "vhost": "/"
+            }
+        }
+    ]
+}
