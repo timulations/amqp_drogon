@@ -61,6 +61,6 @@ Invoke the plugin like below to get a `std::shared_ptr<AMQP::Channel>`. You can 
 
 ### Test Example
 1. Build the example shown in `main.cc`.
-2. Run `python3 consumer.py` to create a mock RabbitMQ listener.
+2. Run `python3 consumer.py` inside `test/script` to create a mock RabbitMQ listener.
 3. Use `curl -X GET 'http://127.0.0.1:5000/produce'` to invoke the `/produce` endpoint to send a message to the `"hello"` queue.
 4. Watch the message come up on `python3 consumer.py`
